@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090e18"><title>Visitor Photo Wall · Display</title><link rel="stylesheet" href="/styles.css"></head>
+<body class="display-body">
+  <main class="screen" aria-live="polite">
+    <div id="empty" class="empty"><p class="eyebrow">FRAME·FRIENDS</p><h1>Your next memory<br><em>starts here.</em></h1><p>Photos shared by visitors will appear on this screen.</p><a href="/">Add a photo</a></div>
+    <img id="slide" class="slide hidden" alt="A photo shared by a visitor">
+    <div id="caption" class="caption hidden"><span>SHARED BY</span><strong id="visitor-name"></strong></div>
+    <div class="display-mark">FRAME<span>·</span>FRIENDS</div>
+    <div class="progress"><div id="progress-fill"></div></div>
+  </main><script src="/display.js" defer></script>
+</body></html>
